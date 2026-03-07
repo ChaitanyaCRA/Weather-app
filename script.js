@@ -48,8 +48,7 @@ searchBtn.addEventListener("click", async(evt)=>{
         document.getElementById("wind").innerText = `Wind : ${wind}`;
 
         
-    }catch(error){
-        document.getElementById("errorMsg").innerText = "Something went wrong!!!!!!!!";
-    }
+    
+
 
 });
